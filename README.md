@@ -38,7 +38,7 @@ Follow these steps to run the project locally.
 1.  **Go to backend folder**
 
     ```bash
-    cd backend
+    cd client
     ```
 
 2.  **Install dependencies**
@@ -57,7 +57,7 @@ Follow these steps to run the project locally.
 4.  **Run backend server**
 
     ```bash
-    npm run dev
+    npm start
     ```
 
     (Server will start at http://localhost:5000)
@@ -67,7 +67,7 @@ Follow these steps to run the project locally.
 1.  **Go to frontend folder**
 
     ```bash
-    cd frontend
+    cd client
     ```
 
 2.  **Install dependencies**
@@ -118,14 +118,3 @@ Follow these steps to run the project locally.
 | GET    | /feedback   | Fetch all feedbacks         |
 
 ---
-
-## 🧩 System Architecture
-
-```mermaid
-flowchart TD
-    A[React Frontend] -- POST /feedback --> B[Express Backend]
-    A -- GET /feedback --> B
-    B -- Mongo Queries --> C[(MongoDB Database)]
-    C -- Feedback Data --> B
-    B -- JSON Response --> A
-🛡️ Security & Best PracticesCORS enabled for frontend-backend communication.Input validation at both frontend and backend.Smooth error handling with toast notifications.🧠 Future ImprovementsAdd Admin Authentication (JWT based)Paginate large feedback listsSearch across feedback contentAdmin dashboard for analytics & insights🧑‍💻 Developer InfoGitHub: your-usernameLinkedIn: your-linkedin-profile🙏 Thank you!Made with ❤️ for high-
