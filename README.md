@@ -91,7 +91,7 @@ Follow these steps to run the project locally.
 | Page         | Description                                        |
 | :----------- | :------------------------------------------------- |
 | / (Home)     | Submit Feedback Form with animated hero section     |
-| /dashboard | Feedback Dashboard with filters and sorting        |
+| /dashboard   | Feedback Dashboard with filters and sorting        |
 
 ---
 
@@ -99,14 +99,17 @@ Follow these steps to run the project locally.
 
 | Script             | Description                              |
 | :----------------- | :--------------------------------------- |
-| npm run dev (backend)   | Starts Express server using Nodemon       |
+| npm start (backend)   | Starts Express server using Nodemon       |
 | npm start (frontend) | Runs React app on development server    |
 
 ---
 
 ## 🎨 UI Preview
 
-(You can add screenshots here if you want later.)
+![image](https://github.com/user-attachments/assets/6434bcfd-19e8-45ec-b135-1fa12fd02a06)
+
+![image](https://github.com/user-attachments/assets/290a1593-57d7-4369-8987-93ad50019f07)
+
 
 ---
 
