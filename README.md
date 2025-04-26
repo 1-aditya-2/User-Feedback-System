@@ -51,7 +51,8 @@ Follow these steps to run the project locally.
 
     ```bash
     PORT=5000
-    MONGO_URI=your_mongodb_connection_string
+    MONGO_URI=mongodb+srv://meadisingh1209:tAikrMFKWg78twnD@feedback.6ukikqp.mongodb.net/?retryWrites=true&w=majority&appName=Feedback
+    (Used free account of Mongobd atlas - can use for setting up mongodb, if you don't have)
     ```
 
 4.  **Run backend server**
